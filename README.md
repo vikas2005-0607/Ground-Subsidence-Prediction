@@ -1,25 +1,16 @@
-# Ground Subsidence Prediction Using MATLAB
+# React + Vite
 
-## Project Overview
-This project estimates ground subsidence over a mining panel using an influence-function-based approach. MATLAB is used to calculate subsidence and visualize the resulting ground deformation.
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-## Files
-- `matlab_proj.m` — Original script for subsidence calculation and plotting.
-- `point_to_line.m` — Helper function for calculating perpendicular distances from points to lines.
-- `subsidence_model.m` — Generalized subsidence model that calculates subsidence and related deformation parameters.
-- `subsidenceGUI.m` — Graphical user interface for running simulations, visualizing results, exporting data, and comparing predictions with observed data.
+Currently, two official plugins are available:
 
-## Technologies
-- MATLAB
-- Influence Function Method
-- Numerical Modelling and Data Visualization
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
 
-## How to Run
-1. Download or clone this repository.
-2. Open MATLAB and set the project folder as the current folder.
-3. Run `subsidenceGUI.m` to use the graphical interface.
-4. Alternatively, run `matlab_proj.m` for the original standalone calculation.
+## React Compiler
 
-Ensure all required MATLAB files are in the same folder.
+The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
 
-Author Vikas Modanwal
+## Expanding the ESLint configuration
+
+If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
