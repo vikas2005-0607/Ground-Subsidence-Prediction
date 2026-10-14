@@ -120,4 +120,4 @@ The project can support academic study and preliminary analysis of:
 **Vikas Modanwal**  
 B.Tech. — Mining Engineering  
 Indian Institute of Technology (Indian School of Mines), Dhanbad
-results to engineering decisions.*
+
